@@ -12,6 +12,9 @@ function App() {
     ))
   };
 
+  const git_testing = "bas git kaam kar rha hai ki nhi whi check kar rhe h ";
+
+
   const updateToDo = (id, todo) => {
     setTodos((prev) => (
       prev.map((currTodo) => (currTodo.id === id ? todo : currTodo))
